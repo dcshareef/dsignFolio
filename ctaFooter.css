@@ -1,0 +1,141 @@
+* {
+    font-family: "DM Sans", serif;
+}
+
+
+/* Call to Action Starts */
+section.callToAction {
+    padding-top: 60px;
+}
+section.callToAction .ctaPart {
+    padding: 50px 100px;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+    box-shadow: rgba(255, 255, 255, 0.025) 0px 0.362176px 0.651917px -1px inset, rgba(255, 255, 255, 0.036) 0px 3px 5.4px -2px inset;
+    background-color: #c4f000;
+}
+section.callToAction .ctaPart h2 {
+    font-size: 60px;
+    line-height: 70px;
+    margin-bottom: 20px;
+    font-weight: 400;
+    color: #070707;
+    font-family: "DM Sans", serif;
+}
+section.callToAction .ctaPart p {
+    font-size: 18px;
+    line-height: 23px;
+    color: #1F1F1F;
+    font-family: "DM Sans", serif;
+    font-weight: 400;
+}
+section.callToAction .ctaBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 30px;
+    background: #070707;
+    text-decoration: none;
+    color: #b4b4b4;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    overflow: visible;
+    border-radius: 50px;
+    height: 55px;
+    width: 190px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-transform: none;
+    -webkit-transition: .3s;
+    transition: .3s;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 4px 0px 0px;
+}
+section.callToAction .ctaBtn:focus {
+    -webkit-transition: .3s;
+    transition: .3s
+}
+section.callToAction .ctaBtn i {
+    margin-left: 10px;
+    font-weight: 500;
+    transition: 500ms;
+}
+section.callToAction .ctaBtn:hover {
+    outline: 1px solid #c4f000;
+    text-decoration: none;
+    color: #fff;
+    -webkit-transition: .3s;
+    transition: .3s;
+    background: #070707;
+}
+section.callToAction .ctaBtn:hover i {
+    padding-left: 5px;
+}
+section.callToAction .ctaBtn:active {
+    box-shadow: rgba(0, 0, 0, .125) 0 3px 5px inset;
+    outline: 0;
+}
+/* Call to Action Ends */
+
+
+
+
+/* Footer Starts */
+.footer .copyrightText {
+    color: #b4b4b4;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+    margin: 10px 0px 20px;
+}
+
+.footer .copyrightText a {
+    color: #c4f000;
+}
+/* Footer Ends */
+
+
+
+@media (max-width: 1024px) {
+    /* Call to Action Starts */
+    section.callToAction .ctaPart {
+        padding: 30px 30px;
+    }
+
+    section.callToAction {
+        padding-top: 15px;
+
+    }
+    section.callToAction .ctaPart h2 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+}
+@media (max-width: 400px) {
+    /* Call to Action Starts */
+    section.callToAction .ctaPart {
+        padding: 30px 30px;
+    }
+
+    section.callToAction {
+        padding-top: 15px;
+
+    }
+    section.callToAction .ctaPart h2 {
+        font-size: 30px;
+        line-height: 35px;
+        margin-bottom: 10px;
+    }
+    section.callToAction .ctaPart p {
+        font-size: 14px;
+        line-height: 18px;
+    }
+    section.callToAction .ctaBtn {
+        margin-top: 0px;
+    }
+}

@@ -1,0 +1,487 @@
+/* Google Font */ 
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    font-family: "DM Sans", serif;
+}
+body {
+    background-color: #070707;
+}
+
+/* Hero Section Starts */
+section.heroSection {
+    height: 100%;
+    padding: 150px 135px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #130f40;
+    background-image: -webkit-linear-gradient(135deg, #130f40 0%, #000000 74%);
+    background-image: linear-gradient(315deg, #130f40 0%, #000000 74%);
+}
+/* section.heroSection img {
+    filter: grayscale(100%);
+} */
+section.heroSection .contentWrapper {
+    margin-top: 30px;
+}
+section.heroSection .heroContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    margin: 0px 30px;
+    max-width: 850px;
+}
+section.heroSection .imageWrapper img {
+    min-height: 500px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 30px;
+}
+section.heroSection .heroContent h1 {
+    font-family: "DM Sans", serif;
+    font-weight: 400;
+    line-height: 80px;
+    font-size: 64px;
+    background: -webkit-linear-gradient(#fff, #696969);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+section.heroSection .heroContent h2 {
+    display: block;
+    font-weight: 400;
+    margin-bottom: 5px;
+    color: #b4b4b4;
+    font-size: 20px;
+    line-height: 28px;
+    font-family: "DM Sans", serif;
+}
+section.heroSection .heroBtns {
+    margin: 20px 0px;
+}
+section.heroSection .heroBtns .cvBtn {
+    outline: 1px solid #c4f000;
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    overflow: visible;
+    border-radius: 50px;
+    height: 55px;
+    width: 190px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-transform: none;
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+section.heroSection .heroBtns .cvBtn:focus {
+    -webkit-transition: .3s;
+    transition: .3s
+}
+section.heroSection .heroBtns .cvBtn i {
+    margin-left: 10px;
+    font-weight: 500;
+}
+section.heroSection .heroBtns .cvBtn:hover {
+    /* background: #070707; */
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 4px 0px 0px;
+    color: #000;
+    background: #c4f000;
+    text-decoration: none;
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+section.heroSection .heroBtns .cvBtn:active {
+    box-shadow: rgba(0, 0, 0, .125) 0 3px 5px inset;
+    outline: 0;
+}
+
+
+@media(max-width: 1400px) {
+    /* Hero Section Starts */
+    section.heroSection {
+        padding: 150px 100px;
+    }
+    section.heroSection .heroContent {
+        margin: 30px 0px;
+        max-width: 100vw;
+    }
+}
+
+@media(max-width: 1024px) {
+    /* Hero Section Starts */
+    section.heroSection {
+        padding: 130px 50px;
+    }
+    section.heroSection .contentWrapper {
+        margin-top: 0px;
+    }
+    section.heroSection .heroContent {
+        margin-top: 0px;
+        margin-bottom: 30px;
+        max-width: 100vw;
+    }
+    section.heroSection .imageWrapper img {
+        max-height: 500px;
+    }
+    section.heroSection .heroContent h1 {
+        line-height: 70px;
+        font-size: 60px;
+    }
+    section.heroSection .heroContent h2 {
+        font-size: 20px;
+        line-height: 25px;
+    }
+    /* Hero Section Ends */
+}
+
+@media(max-width: 786px) {
+    /* Hero Section Starts */
+    section.heroSection {
+        padding: 120px 50px;
+    }
+    section.heroSection .imageWrapper img {
+        max-height: 500px;
+    }
+    section.heroSection .heroContent {
+        margin-bottom: 20px;
+        max-width: 100vw;
+    }
+    section.heroSection .heroContent h1 {
+        line-height: 60px;
+        font-size: 50px;
+    }
+    section.heroSection .heroContent h2 {
+        font-size: 17px;
+        line-height: 20px;
+    }
+    /* Hero Section Ends */
+}
+@media(max-width: 699px) {
+    /* Hero Section Starts */
+    section.heroSection .heroContent h1 {
+        line-height: 50px;
+        font-size: 40px;
+    }
+    section.heroSection .heroContent h2 {
+        font-size: 17px;
+        line-height: 20px;
+    }
+    /* Hero Section Ends */
+}
+
+@media(max-width: 576px) {
+    /* Hero Section Starts */
+    section.heroSection {
+        padding: 80px 10px;
+    }
+    section.heroSection .imageWrapper img {
+        min-height: 100px;
+        max-height: 400px;
+    }
+    section.heroSection .heroContent {
+        margin-bottom: 20px;
+    }
+    section.heroSection .heroContent h1 {
+        line-height: 35px;
+        font-size: 30px;
+    }
+    section.heroSection .heroContent h2 {
+        font-size: 14px;
+        line-height: 18px;
+    }
+    section.heroSection .heroBtns .cvBtn {
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 20px;
+        width: 100%;
+    }
+    /* Hero Section Ends */
+}
+
+@media(max-width: 400px) {
+    /* Hero Section Starts */
+    section.heroSection {
+        padding: 70px 10px 0px;
+    }
+    section.heroSection .imageWrapper img {
+        min-height: 300px;
+        max-height: 300px;
+    }
+    section.heroSection .heroContent {
+        margin-bottom: 20px;
+    }
+    section.heroSection .heroContent h1 {
+        line-height: 30px;
+        font-size: 26px;
+    }
+    section.heroSection .heroContent h2 {
+        font-size: 14px;
+        line-height: 18px;
+    }
+    section.heroSection .heroBtns {
+        margin: 15px 0px;
+    }
+    section.heroSection .heroBtns .cvBtn {
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 20px;
+        width: 100%;
+    }
+    /* Hero Section Ends */
+}
+
+
+
+
+
+
+
+/* Portfolio Section Starts */
+section.porfolioSection {
+    padding-top: 50px;
+    padding-bottom: 100px;
+    padding-bottom: 30px;
+    background-color: #130f40;
+    background-image: -webkit-linear-gradient(220deg, #130f40 0%, #000000 74%);
+    background-image: linear-gradient(230deg, #130f40 0%, #000000 74%);
+    font-family: "DM Sans", serif;
+}
+section.porfolioSection .portfolioBox {
+    position: relative;
+    overflow: hidden;
+    border-radius: 0.5em;
+    width: 100%;
+    height: 100%;
+    max-height: fit-content;
+}
+section.porfolioSection .portfolioBox.threeBoxes {
+    margin: 25px 0px 0px;
+}
+section.porfolioSection .portfolioBox img {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    width: 100%;
+    -webkit-transition: transform 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+    -webkit-transition: -webkit-transform 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: -webkit-transform 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: transform 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: transform 0.4s cubic-bezier(0.165, 0.84, 0.44, 1), -webkit-transform 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: 400ms;
+}
+section.porfolioSection .portfolioBox .portfolioCategory {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    display: inline-block;
+    background: rgba(0, 0, 0, 0.2);
+    -webkit-backdrop-filter: blur(5px);
+            backdrop-filter: blur(5px);
+    border-radius: 2em;
+    padding: 0.5em 1em;
+    color: white;
+    font-weight: 400;
+    font-size: 0.9em;
+    text-transform: uppercase;
+    letter-spacing: 0.5px
+}
+section.porfolioSection .portfolioBox .portfolioCaption {
+    z-index: 1;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    visibility: hidden;
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    margin-bottom: -6px;
+    padding: 0 30px 24px;
+    -webkit-transition: ease-out 0.5s;
+    transition: ease-out 0.5s
+}
+section.porfolioSection .projectWrapper {
+    aspect-ratio: 1200 / 800;
+}
+section.porfolioSection .projectWrapper img {
+    object-fit: cover;
+    object-position: center;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+section.porfolioSection .portfolioBox .portfolioCaption * {
+    margin: 0;
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    -webkit-transition: linear 0.06s;
+    transition: linear 0.06s
+}
+section.porfolioSection .portfolioBox .blackShade {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: translateX(50%, 50%);
+    height: 100%;
+    width: 100%;
+    border-top: 0;
+    border-radius: 10px;
+    transition: 400ms;
+    border-radius: 0px;
+}
+section.porfolioSection .portfolioBox:hover .blackShade {
+    background: linear-gradient(to top, rgba(0,0,0,0.7), rgba(0,0,0,0.1));
+}
+section.porfolioSection .portfolioBox .portfolioCaption *:hover {
+    text-shadow: 0 0 white
+}
+section.porfolioSection .portfolioBox:hover:after {
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)"
+}
+section.porfolioSection .portfolioBox:hover img {
+    -webkit-transform: scale(1.04);
+    transform: scale(1.04);
+    -webkit-filter: blur(1.5px);
+    filter: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feGaussianBlur stdDeviation="1.5" /></filter></svg>#filter');
+    filter: blur(1.5px);
+    /* filter: grayscale(100%); */
+}
+section.porfolioSection .portfolioBox:hover .portfolioCaption {
+    visibility: visible;
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    margin-bottom: 0
+}
+section.porfolioSection .btnWrapper {
+    display: flex;
+    justify-content: center;
+}
+section.porfolioSection .viewmoreBtn {
+    margin-top: 30px;
+    outline: 1px solid #c4f000;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    overflow: visible;
+    border-radius: 50px;
+    height: 55px;
+    width: 190px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-transform: none;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 4px 0px 0px;
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+section.porfolioSection .viewmoreBtn:focus {
+    -webkit-transition: .3s;
+    transition: .3s
+}
+section.porfolioSection .viewmoreBtn i {
+    margin-left: 10px;
+    font-weight: 500;
+}
+section.porfolioSection .viewmoreBtn:hover {
+    text-decoration: none;
+    /* background: #070707; */
+    background-color: #c4f000;
+    color: #000;
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+section.porfolioSection .viewmoreBtn:active {
+    box-shadow: rgba(0, 0, 0, .125) 0 3px 5px inset;
+    outline: 0;
+}
+/* Portfolio Section Ends */
+
+
+
+
+@media(max-width: 1400px) {
+    /* Portfolio Section Starts */
+    /* Portfolio Section Ends */
+}
+
+@media(max-width: 1024px) {
+    /* Portfolio Section Starts */
+    /* Portfolio Section Ends */
+}
+
+@media(max-width: 786px) {
+    /* Portfolio Section Starts */
+    section.porfolioSection .projectWrapper {
+        margin: 10px 0px;
+    }
+    section.porfolioSection .customIcon img {
+        height: 100px;
+    }
+    section.porfolioSection .portfolioBox.threeBoxes.firstOne {
+        margin-top: 10px;
+    }
+    section.porfolioSection .portfolioBox.threeBoxes {
+        margin-top: 20px;
+    }
+    
+    /* Portfolio Section Ends */
+}
+
+@media(max-width: 576px) {
+    /* Portfolio Section Starts */
+    section.porfolioSection {
+        padding-top: 10px;
+        padding-bottom: 30px;
+    }
+    section.porfolioSection .btnWrapper .viewmoreBtn {
+        margin-top: 20px;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 20px;
+        width: 100%;
+        border: 1px solid #c4f000;
+        background-color: transparent;
+        color: #b4b4b4;
+    }
+    section.porfolioSection .btnWrapper .viewmoreBtn:hover {
+        color: #ffffff;
+    }
+    /* Portfolio Section Ends */
+}
+
+@media(max-width: 400px) {
+    /* Portfolio Section Starts */
+    section.porfolioSection .portfolioBox .portfolioCaption {
+        right: 0;
+        bottom: 0;
+        left: 0;
+        margin-bottom: -60px;
+        padding: 0 20px 14px;
+    }
+    section.porfolioSection .portfolioBox .portfolioCaption * {
+        font-size: 18px;
+        font-weight: 500;
+    }
+    section.porfolioSection .portfolioBox .blackShade:hover h1 {
+        padding-bottom: 20px;
+    }
+    /* Portfolio Section Ends */
+}

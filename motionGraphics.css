@@ -1,0 +1,38 @@
+.videoSection {
+    padding: 100px 100px;
+}
+.videoSection video.landscape {
+    max-height: 400px;
+}
+.videoSection video.portrait {
+    max-height: 600px;
+    width: 50%;
+}
+h1 {
+    color: #b4b4b4;
+}
+a.download-button {
+    font-size: 16px;
+}
+.download-button i {
+    font-size: 16px;
+    margin: 0px 0px 0px 10px;
+}
+
+
+
+
+@media (max-width: 400px) {
+    .videoSection {
+        padding: 0px 20px 20px;
+    }
+    .videoSection video.landscape {
+        max-height: 250px;
+    }
+    .video-container {
+        margin: 20px 0px;
+    }
+    a.download-button {
+        display: none;
+    }
+}
