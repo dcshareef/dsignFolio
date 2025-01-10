@@ -468,6 +468,10 @@ section.porfolioSection .viewmoreBtn:active {
 }
 
 @media(max-width: 400px) {
+    section.heroSection img {
+    /* filter: grayscale(100%); */
+    object-position: 50% 20%;
+}
     /* Portfolio Section Starts */
     section.porfolioSection .portfolioBox .portfolioCaption {
         right: 0;
